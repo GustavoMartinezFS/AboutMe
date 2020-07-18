@@ -1,0 +1,242 @@
+html {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #10162c;
+}
+
+/* Capitalize the first letter of each sentence in specific elements */
+#about_me h2, #techs h2, #acts h2 {
+    text-transform: capitalize;
+}
+
+#home h1 , a{
+    text-transform: capitalize; /* Maintain capitalization for proper names */
+}
+
+button {
+    text-transform: lowercase;
+}
+
+
+
+/* title */
+
+#home h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #f4efe6;
+}
+
+/* index */
+
+.navbar {
+    background: linear-gradient(90deg, #020024 0%, #093179 36%, #00d4ff 100%);
+    border-bottom: 2px solid black; 
+}
+
+.navbar__index {
+    max-width: 150rem;
+    font-family: 'Oswald', sans-serif; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar__index a {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: none;
+    color: azure; 
+}
+
+.navbar__index a:hover {
+    background-color: #15cdca;
+    color: black;
+    border-radius: 10px; 
+}
+
+.navbar__index a.active {
+    background-color: #15cdca;
+    color: black;
+    border-radius: 10px; 
+}
+
+/* Section ABOUT ME */
+
+#about_me {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #f4efe6;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+#about_me h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+#about_me p {
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 20px;
+    width: 50rem;
+    text-align: center;
+}
+
+/* Section MY FAVORITE TECHNOLOGIES */
+
+#techs {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #f4efe6;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#techs h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    column-count: 3;
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+/* HTML column */
+
+.html:hover {
+    transform: scale(1.15);
+    opacity: 1; 
+}
+
+.imgHtml {
+    width: 14rem;
+    margin-top: 1rem;
+}
+
+/* Photoshop column */
+
+.photoshop:hover {
+    transform: scale(1.15);
+    opacity: 1; 
+}
+
+.imgPs {
+    width: 12rem;
+    margin-top: 2rem;
+    margin-left: 0.8rem;
+}
+
+/* JavaScript column */
+
+.javascript:hover {
+    transform: scale(1.15);
+    opacity: 1; 
+}
+
+.imgJs {
+    width: 14rem;
+    margin-top: 1rem;
+}
+
+/* Section MY FAVORITE ACTIVITIES */
+
+#acts h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+#acts {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #f4efe6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.description {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.url {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 45rem;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+    display: block;
+    color: #f4efe6;
+}
+
+.activityContainer:empty {
+    display: none;
+}
+
+.activityContainer {
+    background-color: #f4efe6;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.cardElementStyle {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 15rem;
+    height: fit-content;
+    margin: 20px auto;
+    background-color: rgb(247, 238, 225);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}

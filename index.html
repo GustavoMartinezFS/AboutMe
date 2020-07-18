@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
+</head>
+<body>
+    <header>
+        <section id="home">
+            <h1></h1>
+        </section>
+
+        <div class="navbar">
+            <nav class="navbar__index">
+                <a href="#home" class="active">home</a>
+                <a href="#about_me">about me</a>
+                <a href="#techs">my favorite technologies</a>
+                <a href="#acts">my favorite activities</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about_me">
+            <article>
+                <h2></h2>
+                <p></p>
+            </article>        
+        </section>
+
+        <section id="techs">
+            <h2></h2>
+            <div class="col">
+                <div class="html">
+                    <img class="imgHtml" src="img/html.png" alt="">
+                </div>
+                <div class="photoshop">
+                    <img class="imgPs" src="img/ps.png" alt="">
+                </div>
+                <div class="javascript">
+                    <img class="imgJs" src="img/js.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="acts">
+            <h2></h2>
+            <form>
+                <label for="title">title:</label>
+                <input type="text" class="title" id="title" name="title"/>
+                <label for="description">description:</label>
+                <input type="text" class="description" id="description" name="description"/>
+                <label for="url">image url:</label>
+                <input type="url" class="url" id="url" name="url"/>
+                <button id="add" type="button">add</button>
+            </form>
+        </section>
+
+        <section id="cards">
+            <!-- CARDS SHOWN WITH THE ADDED ABOVE -->
+            <div class="activityContainer" id="div1"></div>
+        </section>
+    </main>
+    <footer>
+        <span class="footer"></span>
+    </footer>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/loadContent.js"></script>
+</body>
+</html>

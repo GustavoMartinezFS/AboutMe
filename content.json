@@ -1,0 +1,18 @@
+{
+    "home": "gustavo alfredo martinez trejo",
+    "about_me": {
+      "title": "about me",
+      "text": "I am passionate about challenges and I am constantly searching for new ways to achieve the proposed objectives. I am very enthusiastic about working on projects with proactive people focused on continuous improvement. For this reason, I enjoy going to coworking spaces to share with other professionals."
+    },
+    "techs": {
+      "title": "my favorite technologies",
+      "html": "html image",
+      "photoshop": "photoshop image",
+      "javascript": "javascript image"
+    },
+    "acts": {
+      "title": "my favorite activities"
+    },
+    "footer": "All rights reserved 2020."
+  }
+  

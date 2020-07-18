@@ -1,0 +1,46 @@
+/* reset.css */
+
+/* Box sizing rules */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove default margin */
+  body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure {
+    margin: 0;
+  }
+  
+  /* Remove default padding */
+  p {
+    padding: 0;
+  }
+  
+  /* Set default font family and size */
+  body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Reset heading styles */
+  h1, h2, h3, h4, h5, h6 {
+    
+    font-weight: inherit;
+  }
+  
+  /* Reset list styles */
+  ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Reset anchor styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
