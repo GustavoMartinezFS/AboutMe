@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('content.json')
+    fetch('./scripts/content.json')
         .then(response => response.json())
         .then(data => {
             // Home
